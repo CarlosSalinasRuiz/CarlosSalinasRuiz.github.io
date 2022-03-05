@@ -1,0 +1,132 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #7597df;
+    color: white;
+}
+
+header img {
+    width: 90px;
+    height: 77px;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.container-form {
+    width: 100%;
+    padding: 50px;
+    background-color: #dddddd;
+}
+
+.container-form .formulario .input-group {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.container-form .formulario .input-group input,
+.container-form .formulario .input-group textarea,
+.container-form .formulario .input-group select {
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    padding: 15px;
+    border: none;
+    border: 2px solid #7597df;
+}
+
+
+.container-form .formulario input[type="submit"] {
+    background: #303F9F;
+    border-radius: 1px;
+    border: 2px solid #f2f2f2;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: 15px;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.container-form .formulario input[type="submit"]:hover {
+    background: #1976D2;
+}
+
+.footer-style {
+    text-align: center;
+    padding-top: 10px;
+    background-color: #7597df;
+}
+
+footer {
+    color: white;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+footer .footer-col {
+    margin-bottom: 10px;
+}
