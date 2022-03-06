@@ -5,3 +5,5 @@ Repositorio enfocado en el desarrollo de practicas realizados sobre la Misión F
 ## Modulos realizados:
 
 `01 - INTRO` 🆗
+
+`02 - HTML` 🆗
