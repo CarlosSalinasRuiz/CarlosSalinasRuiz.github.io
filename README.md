@@ -10,4 +10,8 @@ Repositorio enfocado en el desarrollo de practicas realizados sobre la Misión F
 
 `03 - css` 🆗
 
-`04 - JS` ⌚
+`04 - JS` 🆗
+
+`05 - VUEJS` ⌚
+
+`06 - VUEX` ⌚

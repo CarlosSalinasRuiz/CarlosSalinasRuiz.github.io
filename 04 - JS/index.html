@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeApi</title>
+    <link rel="stylesheet" href="public/css/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="content">
+        <div class="imgPokemon">
+          <img src="public/img/default.jpg" alt="Pokemon" id="imgPokemon"/>
+        </div>
+        <div class="details">
+          <div>
+            <h3 id="namePokemon">-------------</h3>
+          </div>
+          <div>
+            <ion-icon name="flame"></ion-icon>
+            <h3 id="ataquePokemon">00</h3>
+          </div>
+          <div>
+            <ion-icon name="bonfire"></ion-icon>
+            <h3 id="ataqueEspecialPokemon">00</h3>
+          </div>
+          <div>
+            <ion-icon name="heart-half"></ion-icon>
+            <h3 id="defensaPokemon">00</h3>
+          </div>
+          <div>
+            <ion-icon name="pulse"></ion-icon>
+            <h3 id="hpPokemon">00</h3>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <input type="text"id="pokeName" name="pokeName" placeholder="ID o Nombre Pokemon" />
+        <button onclick="fetchPokemon()">Buscar</button>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="public/js/main.js"></script>
+  </body>
+</html>
